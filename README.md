@@ -10,7 +10,12 @@ Saya tidak bertanggung jawab atas penyalahgunaan bot ini.
 Bot ini dimaksudkan untuk membantu untuk menyimpan file yang diinginkan yang dapat diakses melalui Link Khusus.
 Gunakan bot ini dengan risiko Anda sendiri, dan gunakan bot ini dengan bijak.
 ```
-
+git clone https://github.com/CodeXBotz/File-Sharing-Bot
+cd File-Sharing-Bot
+pip3 install -r requirements.txt
+# <Create config.py appropriately>
+python3 main.py
+  
 ### Features
 - Sepenuhnya dapat dicustom.
 - Dapat di-deploy di heroku & vps.
