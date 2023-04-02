@@ -20,7 +20,7 @@ APP_ID = int(os.environ.get("APP_ID", "18442414"))
 API_HASH = os.environ.get("API_HASH", "3ec356fc144942b7ecad0811bd810237")
 
 # ID Channel Database
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1001211876481"))
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1001851714414"))
 
 # NAMA OWNER
 OWNER = os.environ.get("OWNER", "videomasakini")
@@ -39,7 +39,7 @@ UPSTREAM_BRANCH = os.environ.get("UPSTREAM_BRANCH", "master")
 DB_URI = os.environ.get("DATABASE_URL", "postgres://nuszmtwjjdmfyq:3a9aff2f011fa99df38dda5eecaa9ce8e969ab72d65c257f372c66c11d7e035c@ec2-52-3-30-226.compute-1.amazonaws.com:5432/d3oko9t35db7cf")
 
 # ID dari Channel Atau Group Untuk Wajib Subscribenya
-FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1001323276407"))
+FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1001211876481"))
 FORCE_SUB_GROUP = int(os.environ.get("FORCE_SUB_GROUP", "0"))
 
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
@@ -47,7 +47,7 @@ TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 # Pesan Awalan /start
 START_MSG = os.environ.get(
     "START_MESSAGE",
-    "<b>Hello {first}</b>\n\n<b>File lainnya dapat dicek di Channel @videomasakini.</b>",
+    "<b>Hello {first}</b>\n\n<b>File lainnya dapat dicek di Channel @tiktokviralbarue.</b>",
 )
 try:
     ADMINS = [int(x) for x in (os.environ.get("ADMINS", "1281619082").split())]
@@ -57,7 +57,7 @@ except ValueError:
 # Pesan Saat Memaksa Subscribe
 FORCE_MSG = os.environ.get(
     "FORCE_SUB_MESSAGE",
-    "<b>Hello {first}\n\nJoin dulu di Channel @videomasakini untuk Melihat File yang saya Bagikan\n\nSilakan Join Ke Channel & Group Terlebih Dahulu</b>",
+    "<b>Hello {first}\n\nJoin dulu di Channel untuk Melihat File yang saya Bagikan\n\nSilakan Join Ke Channel & Group Terlebih Dahulu</b>",
 )
 
 # Atur Teks Kustom Anda di sini, Simpan (None) untuk Menonaktifkan Teks Kustom
