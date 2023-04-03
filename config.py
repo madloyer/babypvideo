@@ -47,7 +47,7 @@ TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "8"))
 # Pesan Awalan /start
 START_MSG = os.environ.get(
     "START_MESSAGE",
-    "<b>Hello {first}</b>\n\n<b>File lainnya dapat dicek di Channel @tiktokviralbarue.</b>",
+    "<b>Hello {first}</b>\n\n<b>File lainnya dapat dicek di Channel</b>",
 )
 try:
     ADMINS = [int(x) for x in (os.environ.get("ADMINS", "1281619082").split())]
